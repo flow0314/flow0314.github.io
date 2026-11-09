@@ -15,7 +15,7 @@ redirect_from:
 </header>
 <div class="intro-layout">
   <div class="home-profile">
-    <img class="intro-photo" src="{{ '/images/kirito_sqaure.png' | relative_url }}" alt="Xingyilang Yin's Kirito avatar" width="400" height="400">
+    <img class="intro-photo" src="{{ '/images/kirito_sqaure.png' | relative_url }}" alt="Xingyilang Yin's Kirito avatar" width="180" height="180">
     <nav class="profile-links" aria-label="Profile links">
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>

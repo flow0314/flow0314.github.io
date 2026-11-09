@@ -3,3 +3,7 @@
 .home-pub-card--text-only { grid-template-columns: minmax(0, 1fr); }
 .profile-page-heading { text-align: left; margin-bottom: 28px; }
 .profile-page-back { display: inline-block; margin-bottom: 18px; font-family: var(--font-heading); }
+
+.intro-photo { max-width: 180px; }
+.exp-logo--crest { object-fit: cover; object-position: left center; }
+@media (max-width: 760px) { .intro-photo { max-width: 160px; } }

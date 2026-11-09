@@ -6,23 +6,26 @@ education:
   focus: Multimodal Agents & Understand
   mentor: 'Advisors: Xiaodong Cun & Chi-Man Pun'
   logo: um_logo.png
+  logo_crest: true
 - org: Xidian University
   role: M.S.
   date: Sep 2022 – Jun 2025
   focus: 3D Understand & Gen
   mentor: 'Advisor: Xi Yang'
   logo: xidian_logo.png
+  logo_crest: true
 - org: Xidian University
   role: B.Sc. in Communication Engineering
   date: Sep 2018 – Jun 2022
   logo: xidian_logo.png
   mentor: 'Advisor: Touch Fish'
+  logo_crest: true
 - org: Wuhan Foreign Languages School
   role: High School
-  url: https://www.wfls.com.cn/
   logo: wfls-logo.svg
   logo_source: https://www.wfls.com.cn/assets/fonts/wflsfont/fonts/wfls.svg
   date: Sep 2015 – Jun 2018
+  mentor: 'Advisor: Touch Fish'
 research:
 - org: ARC Lab, Tencent IEG
   role: Research Intern
