@@ -1,0 +1,16 @@
+<div class="exp-list">
+  {% for entry in include.entries %}
+  <div class="exp-entry">
+    <div class="exp-info">
+      {% if entry.logo %}<img class="exp-logo" src="{{ entry.logo | prepend: '/images/' | relative_url }}" alt="{{ entry.org | escape }}" loading="lazy" width="48" height="48">{% endif %}
+      <div>
+        <h3 class="exp-org">{% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.org | escape }}</a>{% else %}{{ entry.org | escape }}{% endif %}</h3>
+        <p class="exp-role">{{ entry.role | escape }}</p>
+        {% if entry.focus %}<p class="exp-focus">{{ entry.focus | escape }}</p>{% endif %}
+        {% if entry.mentor %}<p class="exp-focus">{{ entry.mentor | escape }}</p>{% endif %}
+        {% if entry.date %}<p class="exp-date">{{ entry.date | escape }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

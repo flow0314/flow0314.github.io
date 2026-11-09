@@ -1,86 +1,287 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
+---
+locale: en-US
+site_theme: default
+title: Xingyilang Yin’s Website
+title_separator: "-"
 name: Xingyilang Yin (flow)
-
-# Short bio or description (displayed in the header)
-description: Researcher in Computer Vision
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://vinthony.github.io/academicpages.github.io//images/avatar.jpg
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
+description: Multimodal Understanding, Generation & 3D Vision
+url: https://flow0314.github.io
+baseurl: ''
+repository: flow0314/flow0314.github.io
+visitor_globe:
+  enabled: false
+  endpoint: ''
+author:
+  avatar: kirito_sqaure.png
+  name: Xingyilang Yin
+  pronouns:
+  bio: Ph.D. Student · Multimodal Understanding, Generation & 3D Vision
+  location:
+  employer: University of Macau & Great Bay University
+  uri: https://flow0314.github.io
+  email: yinflow0314@gmail.com
+  cv: "/cv/"
+  academia:
+  arxiv:
+  googlescholar: https://scholar.google.com/citations?user=bo0YGokAAAAJ&hl=zh-CN
+  inspire-hep:
+  impactstory:
+  orcid:
+  semantic:
+  pubmed:
+  researchgate:
+  scopus:
+  bitbucket:
+  codepen:
   dribbble:
-  email:
+  github: flow0314
+  kaggle:
+  stackoverflow:
+  artstation:
+  bluesky:
   facebook:
   flickr:
-  github: flow0314
+  foursquare:
+  goodreads:
+  google_plus:
+  keybase:
   instagram:
+  lastfm:
   linkedin:
+  mastodon:
+  medium:
   pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://flow0314.github.io/academic/
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "/academic"
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
+  soundcloud:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  wikipedia:
+  xing:
+  youtube:
+  zhihu:
+publication_category:
+  books:
+    title: Books
+  manuscripts:
+    title: Journal Articles
+  conferences:
+    title: Conference Papers
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: disabled
+talkmap_link: false
+comments:
+  provider:
+  disqus:
+    shortname:
+  discourse:
+    server:
+  facebook:
+    appid:
+    num_posts:
+    colorscheme:
+staticman:
+  allowedFields:
+  - name
+  - email
+  - url
+  - message
+  branch: gh-pages
+  commitMessage: New comment.
+  filename: comment-{@timestamp}
+  format: yml
+  moderation: true
+  path: _data/comments/{options.slug}
+  requiredFields:
+  - name
+  - email
+  - message
+  transforms:
+    email: md5
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: iso8601
+atom_feed:
+  hide: false
+  path:
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
+twitter:
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image: kirito_sqaure.png
+og_description: Xingyilang Yin researches multimodal understanding, generation, agents,
+  and 3D vision at the University of Macau and GVC Lab, Great Bay University.
+social:
+  type: Person
+  name: Xingyilang Yin
+  links:
+  - https://github.com/flow0314
+  - https://scholar.google.com/citations?user=bo0YGokAAAAJ&hl=zh-CN
+analytics:
+  provider: 'false'
+  google:
+    tracking_id:
+include:
+- ".htaccess"
+- _pages
+- files
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".github"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- assets/js/_main.js
+- assets/js/plugins
+- CHANGELOG
+- Capfile
+- config
+- Dockerfile
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- local
+- log
+- node_modules
+- scripts
+- package.json*
+- Rakefile
+- README
+- tmp
+- vendor
+- README.md
+- THIRD_PARTY_NOTICES.md
+- TEMPLATE_UPSTREAM.md
+- Gemfile.lock
+- ".jekyll-cache"
+- CONTRIBUTING.md
+- docker-compose.yaml
+- markdown_generator
+- talkmap
+- talkmap.py
+- _site
+keep_files:
+- ".git"
+- ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+collections:
+  teaching:
+    output: true
+    permalink: "/:collection/:path/"
+  publications:
+    output: true
+    permalink: "/:collection/:path/"
+  portfolio:
+    output: true
+    permalink: "/:collection/:path/"
+  talks:
+    output: true
+    permalink: "/:collection/:path/"
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: false
+    share: false
+    related: true
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: single
+    author_profile: true
+- scope:
+    path: ''
+    type: teaching
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    comments: true
+- scope:
+    path: ''
+    type: publications
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    comments: true
+- scope:
+    path: ''
+    type: portfolio
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    comment: true
+- scope:
+    path: ''
+    type: talks
+  values:
+    layout: talk
+    author_profile: true
+    share: true
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: "/:categories/:title/"
+timezone: Asia/Shanghai
+plugins:
+- jekyll-feed
+- jekyll-gist
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
+- jemoji
+whitelist:
+- jekyll-feed
+- jekyll-gist
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
+- jemoji
+category_archive:
+  type: liquid
+  path: "/categories/"
+tag_archive:
+  type: liquid
+  path: "/tags/"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

@@ -1,0 +1,493 @@
+---
+- id: taskframe
+  selected: true
+  year: 2026
+  venue: arXiv
+  description: Connecting task-level planning with frame-level CUA control for game
+    agents.
+  project: https://task-frame.github.io/
+  image: "/images/publications/taskframe.png"
+  image_source: https://task-frame.github.io/static/img/teaser.png
+  title: 'TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game
+    Agents'
+  date: '2026-10-29'
+  authors:
+  - name: Guangzhi Wang
+    mark: "*"
+    short_name: G. Wang
+  - name: Junfu Pu
+    mark: "*"
+    short_name: J. Pu
+  - name: Yiran Wang
+    mark: "*"
+    short_name: Y. Wang
+  - name: Xingyilang Yin
+    mark: "*"
+    short_name: X. Yin
+  - name: Honghao Chen
+    mark: ''
+    short_name: H. Chen
+  - name: Cheng Cheng
+    mark: ''
+    short_name: C. Cheng
+  - name: Lingen Li
+    mark: ''
+    short_name: L. Li
+  - name: Yinan Zhou
+    mark: ''
+    short_name: Y. Zhou
+  - name: Jiarui Wu
+    mark: ''
+    short_name: J. Wu
+  - name: Yinuo Jiang
+    mark: ''
+    short_name: Y. Jiang
+  - name: Hongbo Jin
+    mark: ''
+    short_name: H. Jin
+  - name: Xiaodong Cun
+    mark: "†"
+    short_name: X. Cun
+  - name: Ying Shan
+    mark: ''
+    short_name: Y. Shan
+  paper: https://arxiv.org/abs/2610.40276
+  image_alt: 'TaskFrame: Connecting Task-Level Planning with Frame-Level Control for
+    Game Agents — research overview'
+  bibtex: |-
+    @article{wang2026taskframe,
+      title={{TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents}},
+      author={Wang, Guangzhi and Pu, Junfu and Wang, Yiran and Yin, Xingyilang and Chen, Honghao and Cheng, Cheng and Li, Lingen and Zhou, Yinan and Wu, Jiarui and Jiang, Yinuo and Jin, Hongbo and Cun, Xiaodong and Shan, Ying},
+      journal={arXiv preprint arXiv:2610.40276},
+      year={2026}
+    }
+  metadata_source: https://arxiv.org/abs/2610.40276
+  sort_key: 202620261029
+  selected_order: 2
+  contribution_source: https://task-frame.github.io/
+- id: player-1
+  selected: true
+  year: 2026
+  venue: arXiv
+  description: Learning transferable game control from synthetic experience.
+  project: https://player-1-project.github.io/
+  code: https://github.com/TencentARC/Player-1
+  image: "/images/publications/player-1.png"
+  image_source: https://arxiv.org/html/2610.20584v1/overview.png
+  title: 'Player-1: Learning to Play from Synthetic Experience'
+  date: '2026-10-14'
+  authors:
+  - name: Mingyu Ouyang
+    mark: ''
+    short_name: M. Ouyang
+  - name: Yiran Wang
+    mark: ''
+    short_name: Y. Wang
+  - name: Siyuan Hu
+    mark: ''
+    short_name: S. Hu
+  - name: Xingyilang Yin
+    mark: ''
+    short_name: X. Yin
+  - name: Huiqiang Sun
+    mark: ''
+    short_name: H. Sun
+  - name: Guangzhi Wang
+    mark: ''
+    short_name: G. Wang
+  - name: Junfu Pu
+    mark: ''
+    short_name: J. Pu
+  - name: Cheng Cheng
+    mark: ''
+    short_name: C. Cheng
+  - name: Honghao Chen
+    mark: ''
+    short_name: H. Chen
+  - name: Ying Shan
+    mark: ''
+    short_name: Y. Shan
+  - name: Mike Zheng Shou
+    mark: ''
+    short_name: M. Z. Shou
+  - name: Hwee Tou Ng
+    mark: ''
+    short_name: H. T. Ng
+  paper: https://arxiv.org/abs/2610.20584
+  image_alt: 'Player-1: Learning to Play from Synthetic Experience — research overview'
+  bibtex: |-
+    @article{ouyang2026player,
+      title={{Player-1: Learning to Play from Synthetic Experience}},
+      author={Ouyang, Mingyu and Wang, Yiran and Hu, Siyuan and Yin, Xingyilang and Sun, Huiqiang and Wang, Guangzhi and Pu, Junfu and Cheng, Cheng and Chen, Honghao and Shan, Ying and Shou, Mike Zheng and Ng, Hwee Tou},
+      journal={arXiv preprint arXiv:2610.20584},
+      year={2026}
+    }
+  metadata_source: https://arxiv.org/abs/2610.20584
+  sort_key: 202620261014
+  selected_order: 3
+- id: gamehorizon
+  selected: true
+  year: 2026
+  venue: arXiv
+  description: A unified data and evaluation suite for gameplay capabilities across
+    temporal horizons.
+  project: https://gamehorizon-suite.github.io/
+  code: https://github.com/TencentARC/GameHorizon
+  image: "/images/publications/gamehorizon.png"
+  image_source: https://raw.githubusercontent.com/TencentARC/GameHorizon/main/assets/overview.png
+  title: 'GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay'
+  date: '2026-09-21'
+  authors:
+  - name: Yiran Wang
+    mark: "*"
+    short_name: Y. Wang
+  - name: Xingyilang Yin
+    mark: "*"
+    short_name: X. Yin
+  - name: Junfu Pu
+    mark: "*"
+    short_name: J. Pu
+  - name: Guangzhi Wang
+    mark: "*"
+    short_name: G. Wang
+  - name: Kaifeng Li
+    mark: ''
+    short_name: K. Li
+  - name: Mingyu Ouyang
+    mark: ''
+    short_name: M. Ouyang
+  - name: Huiqiang Sun
+    mark: ''
+    short_name: H. Sun
+  - name: Lingen Li
+    mark: ''
+    short_name: L. Li
+  - name: Cheng Cheng
+    mark: ''
+    short_name: C. Cheng
+  - name: Wangbo Yu
+    mark: ''
+    short_name: W. Yu
+  - name: Honghao Chen
+    mark: ''
+    short_name: H. Chen
+  - name: Xiaodong Cun
+    mark: "†"
+    short_name: X. Cun
+  - name: Chi-Man Pun
+    mark: ''
+    short_name: C.-M. Pun
+  - name: Zhiguo Cao
+    mark: ''
+    short_name: Z. Cao
+  - name: Ying Shan
+    mark: ''
+    short_name: Y. Shan
+  paper: https://arxiv.org/abs/2609.25001
+  image_alt: 'GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay — research
+    overview'
+  bibtex: |-
+    @article{wang2026gamehorizon,
+      title={{GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay}},
+      author={Wang, Yiran and Yin, Xingyilang and Pu, Junfu and Wang, Guangzhi and Li, Kaifeng and Ouyang, Mingyu and Sun, Huiqiang and Li, Lingen and Cheng, Cheng and Yu, Wangbo and Chen, Honghao and Cun, Xiaodong and Pun, Chi-Man and Cao, Zhiguo and Shan, Ying},
+      journal={arXiv preprint arXiv:2609.25001},
+      year={2026}
+    }
+  metadata_source: https://arxiv.org/abs/2609.25001
+  sort_key: 202620260921
+  selected_order: 1
+- id: mllm-4d
+  selected: true
+  year: 2026
+  venue: ICML
+  description: Visual understanding and reasoning about how 3D space evolves over
+    time.
+  code: https://github.com/GVCLab/MLLM-4D
+  image: "/images/mllm4d_teaser.png"
+  title: 'MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence'
+  date: '2026-02-28'
+  authors:
+  - name: Xingyilang Yin
+    mark: "*"
+    short_name: X. Yin
+  - name: Chengzhengxu Li
+    mark: "*"
+    short_name: C. Li
+  - name: Jiahao Chang
+    mark: ''
+    short_name: J. Chang
+  - name: Chi-Man Pun
+    mark: "†"
+    short_name: C.-M. Pun
+  - name: Xiaodong Cun
+    mark: "†"
+    short_name: X. Cun
+  paper: https://arxiv.org/abs/2603.00515
+  image_alt: 'MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence — research
+    overview'
+  bibtex: |-
+    @article{yin2026mllm,
+      title={{MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence}},
+      author={Yin, Xingyilang and Li, Chengzhengxu and Chang, Jiahao and Pun, Chi-Man and Cun, Xiaodong},
+      journal={arXiv preprint arXiv:2603.00515},
+      year={2026}
+    }
+  metadata_source: https://arxiv.org/abs/2603.00515
+  sort_key: 202620260228
+  selected_order: 4
+- id: gsfixer
+  selected: true
+  year: 2026
+  venue: ICML
+  description: Reference-guided video diffusion priors for restoring 3D Gaussian Splatting
+    artifacts.
+  code: https://github.com/GVCLab/GSFixer
+  image: "/images/gsfixer_teaser.png"
+  title: 'GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion
+    Priors'
+  date: '2025-08-13'
+  authors:
+  - name: Xingyilang Yin
+    mark: "*"
+    short_name: X. Yin
+  - name: Qi Zhang
+    mark: "*"
+    short_name: Q. Zhang
+  - name: Jiahao Chang
+    mark: ''
+    short_name: J. Chang
+  - name: Ying Feng
+    mark: ''
+    short_name: Y. Feng
+  - name: Qingnan Fan
+    mark: ''
+    short_name: Q. Fan
+  - name: Xi Yang
+    mark: ''
+    short_name: X. Yang
+  - name: Chi-Man Pun
+    mark: "†"
+    short_name: C.-M. Pun
+  - name: Huaqi Zhang
+    mark: ''
+    short_name: H. Zhang
+  - name: Xiaodong Cun
+    mark: "†"
+    short_name: X. Cun
+  paper: https://arxiv.org/abs/2508.09667
+  image_alt: 'GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video
+    Diffusion Priors — research overview'
+  bibtex: |-
+    @article{yin2025gsfixer,
+      title={{GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors}},
+      author={Yin, Xingyilang and Zhang, Qi and Chang, Jiahao and Feng, Ying and Fan, Qingnan and Yang, Xi and Pun, Chi-Man and Zhang, Huaqi and Cun, Xiaodong},
+      journal={arXiv preprint arXiv:2508.09667},
+      year={2025}
+    }
+  metadata_source: https://arxiv.org/abs/2508.09667
+  sort_key: 202620250813
+  selected_order: 5
+- id: mvov3d
+  selected: true
+  year: 2026
+  venue: TMM
+  description: Reducing vision-language feature noise for open-vocabulary 3D understanding.
+  image: "/images/publications/mvov3d.png"
+  image_source: https://arxiv.org/html/2506.22817v1/figure2_overview2.png
+  title: 'Unleashing the Multi-View Fusion Potential: Noise Correction in VLM for
+    Open-Vocabulary 3D Scene Understanding'
+  date: '2025-06-28'
+  authors:
+  - name: Xingyilang Yin
+    mark: "*"
+    short_name: X. Yin
+  - name: Jiale Wang
+    mark: "*"
+    short_name: J. Wang
+  - name: Xi Yang
+    mark: "†"
+    short_name: X. Yang
+  - name: Mutian Xu
+    mark: ''
+    short_name: M. Xu
+  - name: Xu Gu
+    mark: ''
+    short_name: X. Gu
+  - name: Nannan Wang
+    mark: ''
+    short_name: N. Wang
+  paper: https://arxiv.org/abs/2506.22817
+  image_alt: 'Unleashing the Multi-View Fusion Potential: Noise Correction in VLM
+    for Open-Vocabulary 3D Scene Understanding — research overview'
+  bibtex: |-
+    @article{yin2026unleashing,
+      title={{Unleashing the Multi-View Fusion Potential: Noise Correction in VLM for Open-Vocabulary 3D Scene Understanding}},
+      author={Yin, Xingyilang and Wang, Jiale and Yang, Xi and Xu, Mutian and Gu, Xu and Wang, Nannan},
+      journal={IEEE Transactions on Multimedia},
+      publisher={IEEE},
+      year={2026}
+    }
+  metadata_source: https://arxiv.org/abs/2506.22817
+  sort_key: 202620250628
+  selected_order: 6
+- id: sampro3d
+  selected: true
+  year: 2025
+  venue: 3DV
+  description: Locating prompts in 3D for view-consistent, zero-shot instance segmentation.
+  project: https://mutianxu.github.io/sampro3d/
+  code: https://github.com/GAP-LAB-CUHK-SZ/SAMPro3D
+  image: "/images/publications/sampro3d.jpg"
+  image_source: https://mutianxu.github.io/sampro3d/static/images/teaser.jpg
+  title: 'SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation'
+  date: '2023-11-29'
+  authors:
+  - name: Mutian Xu
+    mark: ''
+    short_name: M. Xu
+  - name: Xingyilang Yin
+    mark: ''
+    short_name: X. Yin
+  - name: Lingteng Qiu
+    mark: ''
+    short_name: L. Qiu
+  - name: Yang Liu
+    mark: ''
+    short_name: Y. Liu
+  - name: Xin Tong
+    mark: ''
+    short_name: X. Tong
+  - name: Xiaoguang Han
+    mark: "†"
+    short_name: X. Han
+  paper: https://arxiv.org/abs/2311.17707
+  image_alt: 'SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation
+    — research overview'
+  bibtex: |-
+    @inproceedings{xu2025sampro3d,
+      title={{SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation}},
+      author={Xu, Mutian and Yin, Xingyilang and Qiu, Lingteng and Liu, Yang and Tong, Xin and Han, Xiaoguang},
+      booktitle={2025 International Conference on 3D Vision (3DV)},
+      pages={1222--1232},
+      organization={IEEE},
+      year={2025}
+    }
+  metadata_source: https://arxiv.org/abs/2311.17707
+  sort_key: 202520231129
+  selected_order: 7
+- id: agcn
+  selected: false
+  year: 2025
+  venue: Pattern Recognition
+  title: Associative Graph Convolution Network for Point Cloud Analysis
+  date: '2025-03-01'
+  authors:
+  - name: Xi Yang
+    mark: ''
+    short_name: X. Yang
+  - name: Xingyilang Yin
+    mark: ''
+    short_name: X. Yin
+  - name: Nannan Wang
+    mark: ''
+    short_name: N. Wang
+  - name: Xinbo Gao
+    mark: ''
+    short_name: X. Gao
+  description: Associative graph convolution for learning from unstructured point
+    clouds.
+  paper: https://doi.org/10.1016/j.patcog.2024.111152
+  image_alt: Associative Graph Convolution Network for Point Cloud Analysis — research
+    overview
+  bibtex: |-
+    @article{yang2025associative,
+      title={{Associative Graph Convolution Network for Point Cloud Analysis}},
+      author={Yang, Xi and Yin, Xingyilang and Wang, Nannan and Gao, Xinbo},
+      journal={Pattern Recognition},
+      volume={159},
+      pages={111152},
+      publisher={Elsevier},
+      doi={10.1016/j.patcog.2024.111152},
+      year={2025}
+    }
+  metadata_source: https://doi.org/10.1016/j.patcog.2024.111152
+  sort_key: 202520250301
+  selected_order: 10
+- id: sa3dip
+  selected: true
+  year: 2024
+  venue: NeurIPS
+  description: Exploiting 3D priors for open-world 3D instance segmentation
+  image: "/images/publications/sa3dip.png"
+  image_source: https://github.com/RyanG41/SA3DIP/assets/134327716/e9066f9e-fd6b-4b57-a599-7605942ac653
+  title: 'SA3DIP: Segment Any 3D Instance with Potential 3D Priors'
+  date: '2024-11-06'
+  authors:
+  - name: Xi Yang
+    mark: ''
+    short_name: X. Yang
+  - name: Xu Gu
+    mark: ''
+    short_name: X. Gu
+  - name: Xingyilang Yin
+    mark: "†"
+    short_name: X. Yin
+  - name: Xinbo Gao
+    mark: ''
+    short_name: X. Gao
+  paper: https://arxiv.org/abs/2411.03819
+  image_alt: 'SA3DIP: Segment Any 3D Instance with Potential 3D Priors — research
+    overview'
+  bibtex: |-
+    @article{yang2024sa3dip,
+      title={{SA3DIP: Segment Any 3D Instance with Potential 3D Priors}},
+      author={Yang, Xi and Gu, Xu and Yin, Xingyilang and Gao, Xinbo},
+      journal={Advances in Neural Information Processing Systems},
+      volume={37},
+      pages={102568--102586},
+      year={2024}
+    }
+  metadata_source: https://arxiv.org/abs/2411.03819
+  sort_key: 202420241106
+  selected_order: 8
+- id: point-deformable
+  selected: true
+  year: 2024
+  venue: AAAI
+  title: Point Deformable Network with Enhanced Normal Embedding for Point Cloud Analysis
+  date: '2024-03-24'
+  authors:
+  - name: Xingyilang Yin
+    mark: ''
+    short_name: X. Yin
+  - name: Xi Yang
+    mark: "†"
+    short_name: X. Yang
+  - name: Liangchen Liu
+    mark: ''
+    short_name: L. Liu
+  - name: Nannan Wang
+    mark: ''
+    short_name: N. Wang
+  - name: Xinbo Gao
+    mark: ''
+    short_name: X. Gao
+  description: Deformable point processing for point cloud analysis
+  paper: https://doi.org/10.1609/aaai.v38i7.28497
+  image_alt: 'PDNet architecture: hierarchical point-cloud processing with local and
+    deformable aggregation modules'
+  bibtex: |-
+    @inproceedings{yin2024point,
+      title={{Point Deformable Network with Enhanced Normal Embedding for Point Cloud Analysis}},
+      author={Yin, Xingyilang and Yang, Xi and Liu, Liangchen and Wang, Nannan and Gao, Xinbo},
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      pages={6738--6746},
+      volume={38},
+      number={7},
+      year={2024}
+    }
+  metadata_source: https://doi.org/10.1609/aaai.v38i7.28497
+  sort_key: 202420240324
+  selected_order: 9
+  image: "/images/publications/pdnet.png"
+  image_source: https://arxiv.org/html/2312.13071v1/point_deformable_network.png

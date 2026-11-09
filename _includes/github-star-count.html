@@ -1,0 +1,1 @@
+{% assign star_stats = site.data.github_stars[include.key] %}<span class="github-star-count" data-github-stars="{{ star_stats.repository }}" data-updated-at="{{ star_stats.updated_at }}" aria-label="{{ star_stats.stars }} GitHub stars" title="GitHub stars · updated {{ star_stats.updated_at | date: '%Y-%m-%d %H:%M UTC' }} · updated daily">★ {{ star_stats.stars }}</span>

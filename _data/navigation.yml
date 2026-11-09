@@ -1,0 +1,15 @@
+main:
+  - title: About
+    url: /#about
+  - title: Education
+    url: /#education
+  - title: Research
+    url: /#research
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /cv/
+  - title: Service
+    url: /#service
+  - title: Contact
+    url: /#contact

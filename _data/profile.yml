@@ -1,0 +1,51 @@
+---
+education:
+- org: UM & GBU
+  role: Ph.D
+  date: Aug 2025 – Present
+  focus: Multimodal Agents & Understand
+  mentor: 'Advisors: Xiaodong Cun & Chi-Man Pun'
+  logo: um_logo.png
+- org: Xidian University
+  role: M.S.
+  date: Sep 2022 – Jun 2025
+  focus: 3D Understand & Gen
+  mentor: 'Advisor: Xi Yang'
+  logo: xidian_logo.png
+- org: Xidian University
+  role: B.Sc. in Communication Engineering
+  date: Sep 2018 – Jun 2022
+  logo: xidian_logo.png
+  mentor: 'Advisor: Touch Fish'
+- org: Wuhan Foreign Languages School
+  role: High School
+  url: https://www.wfls.com.cn/
+  logo: wfls-logo.svg
+  logo_source: https://www.wfls.com.cn/assets/fonts/wflsfont/fonts/wfls.svg
+  date: Sep 2015 – Jun 2018
+research:
+- org: ARC Lab, Tencent IEG
+  role: Research Intern
+  date: Apr 2026 – Present
+  focus: Agents & RSI
+  logo: tencent-logo.png
+  logo_source: https://www.tencent.com/wp-content/uploads/2024/05/logo@2x-en.png
+- org: BlueImage Lab, vivo
+  role: Research Intern
+  date: Dec 2024 – Jul 2025
+  focus: 3D & Video Gen
+  logo: vivo-logo.png
+- org: GAP Lab, CUHKSZ
+  role: Research Intern
+  date: Mar 2024 – Sep 2024
+  focus: 3D Understanding
+  logo: cuhksz-crest.svg
+  logo_source: https://www.cuhk.edu.cn/sites/default/files/zh-hans_logo.png
+services:
+- 'Conference Reviewer: NeurIPS, ICLR, CVPR, AAAI.'
+awards:
+- Outstanding Degree, Xidian University; National Scholarship.
+- Meritorious Prize, MCM/ICM; Second Prize, CMC.
+teaching: 'Teaching Assistant: CISC1004, CISC7109.'
+interests: Outside of research, I enjoy playing Hearthstone and Honor of Kings.
+game_interests: Old Player of Hearthstone and Honor of Kings

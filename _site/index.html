@@ -1,400 +1,636 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Xingyilang Yin (flow) – Researcher in Computer Vision</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
 
-        <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    
-    <meta name="description" content="Researcher in Computer Vision">
-    <meta property="og:description" content="Researcher in Computer Vision" />
-    
-    <meta name="author" content="Xingyilang Yin (flow)" />
 
-    
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<!-- begin SEO -->
 
-    <link rel="stylesheet" type="text/css" href="/academic/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="Xingyilang Yin (flow) - Researcher in Computer Vision" href="/academic/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+
+
+
+
+
+
+
+<title>Xingyilang Yin (flow) - Xingyilang Yin’s Website</title>
+
+
+
+
+
+
+
+
+
+
+  <link rel="canonical" href="https://flow0314.github.io/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Xingyilang Yin",
+      "url" : "https://flow0314.github.io",
+      "sameAs" : ["https://github.com/flow0314","https://scholar.google.com/citations?user=bo0YGokAAAAJ&hl=zh-CN"]
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+<!-- Open Graph protocol data (https://ogp.me/), used by social media -->
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Xingyilang Yin’s Website">
+<meta property="og:title" content="Xingyilang Yin (flow)">
+
+
+  <meta property="og:description" name="description" content="Xingyilang Yin researches multimodal understanding, generation, agents, and 3D vision at the University of Macau and GVC Lab, Great Bay University.">
+
+
+  <meta property="og:url" content="https://flow0314.github.io/">
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://flow0314.github.io",
+      "logo": "/images/kirito_sqaure.png"
+    }
+  </script>
+
+
+
+<!-- end Open Graph protocol -->
+    <link rel="icon" href="/images/kirito_sqaure.png">
+    <link rel="preload" href="/assets/fonts/home/xcharter-roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/home/carlito-bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/css/home.css?v=1794244403">
+    <link rel="stylesheet" href="/assets/css/personal.css">
   </head>
+  <body>
+    <main class="page-shell"><header id="about">
+  <h1 class="page-heading">Xingyilang Yin <span>(flow)</span></h1>
+  <p class="page-subtitle">Ph.D. Student, University of Macau &amp; Great Bay University</p>
+</header>
+<div class="intro-layout">
+  <div class="home-profile">
+    <img class="intro-photo" src="/images/kirito_sqaure.png" alt="Xingyilang Yin's Kirito avatar" width="400" height="400" />
+    <nav class="profile-links" aria-label="Profile links">
+      <a href="/cv/">CV</a>
+      <a href="https://scholar.google.com/citations?user=bo0YGokAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="https://github.com/flow0314" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
 
-  <body >
-  
+Copyright (c) 2026 GitHub Inc.
 
-    <div id="main" role="main" class="container" style="margin-top: 20px;">
-      <style type="text/css">
-    .container{
-      max-width: 900px !important;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    body{
-        font-family: Optima, "Times New Roman", Times, serif;
-        font-weight: 200;
-        font-size: 16px;
-        /*background-color: rgb(43, 60, 197);*/
-        /*color: rgb(0, 79, 241);*/
-        /*color: white;*/
-        border-top:5px solid #6059f5aa;
-        border-bottom:5px solid #6059f5aa;
-    }
-    b{
-      color: #e37133;
-    }
-    .posts{
-        /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-        font-size: 14px;
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    }
-    .news{
-      margin-top: 0;
-      line-height: 1.5em;
-    }
-    .post{
-      border-left: 5px solid #6059f5aa;
-    }
-    .xtitle{
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 24px;
-        margin-top: 15px;
-        font-weight: 400;
-        color: #e37133;
-    }
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-    .posts .teaser{
-      align:center;
-      width: 100%;
-/*      height: 20%;*/
-      overflow: hidden;
-/*        width: 200px;*/
-/*        height: 350px;*/
-        height: 50%;
-        float: left;
-        margin: 0 0 0 10px;
-    }
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </nav>
+  </div>
+  <div class="home-about-content">
+    <p>Hi! I am a second-year Ph.D student at GVCLab, University of Macau and Great Bay University, advised by <a href="https://vinthony.github.io/academic/" target="_blank" rel="noopener noreferrer">Prof. Xiaodong Cun</a> and <a href="https://cmpun.github.io/" target="_blank" rel="noopener noreferrer">Prof. Chi-Man Pun</a>. Previously, I received my M.S. and B.Sc. degrees from Xidian University.</p>
+    <p>I am interested in multimodal agents, understanding and generation, especially multimodal agents / LLMs for game and 3D.</p>
+    <p id="contact" class="contact-line">Email: <a href="mailto:yinflow0314@gmail.com">yinflow0314@gmail.com</a></p>
+  </div>
+</div>
 
-    .posts .teaser-left{
-    margin: 0 auto;
-    max-width:300px;
-    max-height:150px;
-    display: block;
-    width: auto;
-    height: auto;
-    }
+<hr class="experience-divider" />
 
-    .teaser-container{
-    float: left;
-    width: 300px;
-    height: 180px;
+<section id="publications" class="home-section home-publications">
+  <div class="publication-heading"><h2>Selected Publications</h2><p class="home-section-subtitle">* equal contribution; † corresponding author</p></div>
+  <div class="home-pub-list">
 
-    margin-right: 20px;
-    margin-left: 20px;
-    }
+  <article id="gamehorizon" class="home-pub-card" data-selected="true" data-published="2026-09-21" data-sort-key="202620260921" aria-labelledby="title-gamehorizon">
 
-    .post-hidden{
-      display: none;
-    }
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2609.25001" target="_blank" rel="noopener noreferrer" aria-label="GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay">
+    <img src="/images/publications/gamehorizon.png" alt="GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay — research overview" loading="lazy" />
+  </a>
 
-    a{
-      color: #e37133;
-      position: relative;
-    }
+  <div class="home-pub-copy">
+    <h3 id="title-gamehorizon" class="home-pub-title"><a href="https://arxiv.org/abs/2609.25001" target="_blank" rel="noopener noreferrer">GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">Yiran Wang<sup>*</sup>, <strong>Xingyilang Yin</strong><sup>*</sup>, Junfu Pu<sup>*</sup>, Guangzhi Wang<sup>*</sup>, Kaifeng Li, Mingyu Ouyang, Huiqiang Sun, Lingen Li, Cheng Cheng, Wangbo Yu, Honghao Chen, Xiaodong Cun<sup>†</sup>, Chi-Man Pun, Zhiguo Cao, Ying Shan</span><span class="author-names-short">Y. Wang<sup>*</sup>, <strong>Xingyilang Yin</strong><sup>*</sup>, J. Pu<sup>*</sup>, G. Wang<sup>*</sup>, K. Li, M. Ouyang, H. Sun, L. Li, C. Cheng, W. Yu, H. Chen, X. Cun<sup>†</sup>, C.-M. Pun, Z. Cao, Y. Shan</span></p>
+    <p class="home-pub-venue">arXiv 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2609.25001" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+      <a class="home-pub-link" href="https://gamehorizon-suite.github.io/" target="_blank" rel="noopener noreferrer">🌐 Project Page</a>
+      <a class="home-pub-link home-pub-link--code" href="https://github.com/TencentARC/GameHorizon" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
 
-    .user-info a{
-      color: #333;
-    }
-    .user-info a:after{
-      content: '';
-      position: absolute;
-      top: 60%;
-      left: -0.1em;
-      right: -0.1em;
-      bottom: 0;
-      transition:top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-      /*background-color: rgba(225, 166, 121, 0.5);*/
-      background-color: rgba(255,211,30, 0.5);
-    }
+Copyright (c) 2026 GitHub Inc.
 
-    .authors-entry a {
-      color: #666
-    }
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    .emojilink:after{
-      background-color: rgba(255,211,30, 0.0)
-      /*rgba(225, 166, 121, 0.0);*/
-    }
-    a:hover{
-      color:rgb(255, 180, 240);
-    }
-    a:hover:after{
-      color:rgb(255, 180, 240);
-      /*color: #111;*/
-      top:0%;
-    }
-    .xcode a:after{
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      transition:top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-      /*background-color: rgba(225, 166, 121, 0.5);*/
-      background-color: #fff;
-    }
-    .xcode a:hover:after{
-      color: #fff;
-      /*color: #111;*/
-    }
-    .entry{
-        position: relative;
-        top:0;
-        left: 20px;
-        margin-top: 5px;
-    }
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-    .posts > .post{
-        border-bottom: 0;
-        padding-bottom:0em;
-        padding-top: 10px;
-        margin-bottom: 10px;
-    }
-    .papertitle{
-        margin-top: 0px;
-        font-weight: 600;
-        font-size:16px;
-        font-style: italic;
-        /*font-style: italic;*/
-        /*height: 2.6em*/
-    }
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </div>
+    <p class="home-pub-desc">A unified data and evaluation suite for gameplay capabilities across temporal horizons.</p>
+  </div>
+</article>
+<article id="taskframe" class="home-pub-card" data-selected="true" data-published="2026-10-29" data-sort-key="202620261029" aria-labelledby="title-taskframe">
 
-</style>
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2610.40276" target="_blank" rel="noopener noreferrer" aria-label="TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents">
+    <img src="/images/publications/taskframe.png" alt="TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents — research overview" loading="lazy" />
+  </a>
 
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+  <div class="home-pub-copy">
+    <h3 id="title-taskframe" class="home-pub-title"><a href="https://arxiv.org/abs/2610.40276" target="_blank" rel="noopener noreferrer">TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">Guangzhi Wang<sup>*</sup>, Junfu Pu<sup>*</sup>, Yiran Wang<sup>*</sup>, <strong>Xingyilang Yin</strong><sup>*</sup>, Honghao Chen, Cheng Cheng, Lingen Li, Yinan Zhou, Jiarui Wu, Yinuo Jiang, Hongbo Jin, Xiaodong Cun<sup>†</sup>, Ying Shan</span><span class="author-names-short">G. Wang<sup>*</sup>, J. Pu<sup>*</sup>, Y. Wang<sup>*</sup>, <strong>Xingyilang Yin</strong><sup>*</sup>, H. Chen, C. Cheng, L. Li, Y. Zhou, J. Wu, Y. Jiang, H. Jin, X. Cun<sup>†</sup>, Y. Shan</span></p>
+    <p class="home-pub-venue">arXiv 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2610.40276" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+      <a class="home-pub-link" href="https://task-frame.github.io/" target="_blank" rel="noopener noreferrer">🌐 Project Page</a>
 
-<script type="text/javascript">
+    </div>
+    <p class="home-pub-desc">Connecting task-level planning with frame-level CUA control for game agents.</p>
+  </div>
+</article>
+<article id="player-1" class="home-pub-card" data-selected="true" data-published="2026-10-14" data-sort-key="202620261014" aria-labelledby="title-player-1">
 
-$(function(){
-    $('#vis_teaser').on('click', function(){
-        $('.unimportant').toggleClass('post-hidden')
-   });
-});
-</script>
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2610.20584" target="_blank" rel="noopener noreferrer" aria-label="Player-1: Learning to Play from Synthetic Experience">
+    <img src="/images/publications/player-1.png" alt="Player-1: Learning to Play from Synthetic Experience — research overview" loading="lazy" />
+  </a>
 
-<div class='user-info'>
+  <div class="home-pub-copy">
+    <h3 id="title-player-1" class="home-pub-title"><a href="https://arxiv.org/abs/2610.20584" target="_blank" rel="noopener noreferrer">Player-1: Learning to Play from Synthetic Experience</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">Mingyu Ouyang, Yiran Wang, Siyuan Hu, <strong>Xingyilang Yin</strong>, Huiqiang Sun, Guangzhi Wang, Junfu Pu, Cheng Cheng, Honghao Chen, Ying Shan, Mike Zheng Shou, Hwee Tou Ng</span><span class="author-names-short">M. Ouyang, Y. Wang, S. Hu, <strong>Xingyilang Yin</strong>, H. Sun, G. Wang, J. Pu, C. Cheng, H. Chen, Y. Shan, M. Z. Shou, H. T. Ng</span></p>
+    <p class="home-pub-venue">arXiv 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2610.20584" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+      <a class="home-pub-link" href="https://player-1-project.github.io/" target="_blank" rel="noopener noreferrer">🌐 Project Page</a>
+      <a class="home-pub-link home-pub-link--code" href="https://github.com/TencentARC/Player-1" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
 
-  <img style="width: 105px;float: left;" src="images/kirito_sqaure.png" alt="">
+Copyright (c) 2026 GitHub Inc.
 
-<div style="position: relative; left:40px; top:10px">
-<!-- <div style="float:right; padding-right:50px"><img src="images/greatbay.png"/></div> -->
-<div style="font-size:24px;font-weight: 400">Xingyilang Yin (flow)</div>
-<div>AIGC | 3D Vision Learner</div>
-<!-- <div>Master Student</div> -->
-<div>GVC Lab, UM & GBU</div>
-<!-- <div>Xidian University</div> -->
-<!-- <div>Address: No. 16, University Road, Songshan Lake, Dongguan, Guangdong, China</div> -->
-Email (yinflow0314 at gmail dot com) / <a target="_blank" href="https://github.com/flow0314">Github</a> / <a target="_blank" href="https://scholar.google.com/citations?user=bo0YGokAAAAJ&hl=zh-CN">Google Scholar</a> 
-<!-- / <a target="_blank" href="https://github.com/vinthony">Github</a> / <a target="_blank" href="https://www.zhihu.com/people/vinthony">ZhiHu</a> /
-<a target="_blank" href="./images/resume.pdf">CV</a> / <a target="_blank" href="https://www.gbu.edu.cn/detail/article/1013">HomePage@GBU</a> -->
-<!-- # / <span class="xcode"> Designer, P.M., Engineer of <a href="https://discord.gg/rrayYqZ4tf"><img style="vertical-align:sub;" src="https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat" /></a> . </span> -->
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </div>
+    <p class="home-pub-desc">Learning transferable game control from synthetic experience.</p>
+  </div>
+</article>
+<article id="mllm-4d" class="home-pub-card" data-selected="true" data-published="2026-02-28" data-sort-key="202620260228" aria-labelledby="title-mllm-4d">
+
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2603.00515" target="_blank" rel="noopener noreferrer" aria-label="MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence">
+    <img src="/images/mllm4d_teaser.png" alt="MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence — research overview" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-mllm-4d" class="home-pub-title"><a href="https://arxiv.org/abs/2603.00515" target="_blank" rel="noopener noreferrer">MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full"><strong>Xingyilang Yin</strong><sup>*</sup>, Chengzhengxu Li<sup>*</sup>, Jiahao Chang, Chi-Man Pun<sup>†</sup>, Xiaodong Cun<sup>†</sup></span><span class="author-names-short"><strong>Xingyilang Yin</strong><sup>*</sup>, C. Li<sup>*</sup>, J. Chang, C.-M. Pun<sup>†</sup>, X. Cun<sup>†</sup></span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">ICML 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2603.00515" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+
+      <a class="home-pub-link home-pub-link--code" href="https://github.com/GVCLab/MLLM-4D" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
+
+Copyright (c) 2026 GitHub Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </div>
+    <p class="home-pub-desc">Visual understanding and reasoning about how 3D space evolves over time.</p>
+  </div>
+</article>
+<article id="gsfixer" class="home-pub-card" data-selected="true" data-published="2025-08-13" data-sort-key="202620250813" aria-labelledby="title-gsfixer">
+
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2508.09667" target="_blank" rel="noopener noreferrer" aria-label="GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors">
+    <img src="/images/gsfixer_teaser.png" alt="GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors — research overview" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-gsfixer" class="home-pub-title"><a href="https://arxiv.org/abs/2508.09667" target="_blank" rel="noopener noreferrer">GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full"><strong>Xingyilang Yin</strong><sup>*</sup>, Qi Zhang<sup>*</sup>, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun<sup>†</sup>, Huaqi Zhang, Xiaodong Cun<sup>†</sup></span><span class="author-names-short"><strong>Xingyilang Yin</strong><sup>*</sup>, Q. Zhang<sup>*</sup>, J. Chang, Y. Feng, Q. Fan, X. Yang, C.-M. Pun<sup>†</sup>, H. Zhang, X. Cun<sup>†</sup></span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">ICML 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2508.09667" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+
+      <a class="home-pub-link home-pub-link--code" href="https://github.com/GVCLab/GSFixer" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
+
+Copyright (c) 2026 GitHub Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </div>
+    <p class="home-pub-desc">Reference-guided video diffusion priors for restoring 3D Gaussian Splatting artifacts.</p>
+  </div>
+</article>
+<article id="mvov3d" class="home-pub-card" data-selected="true" data-published="2025-06-28" data-sort-key="202620250628" aria-labelledby="title-mvov3d">
+
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2506.22817" target="_blank" rel="noopener noreferrer" aria-label="Unleashing the Multi-View Fusion Potential: Noise Correction in VLM for Open-Vocabulary 3D Scene Understanding">
+    <img src="/images/publications/mvov3d.png" alt="Unleashing the Multi-View Fusion Potential: Noise Correction in VLM for Open-Vocabulary 3D Scene Understanding — research overview" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-mvov3d" class="home-pub-title"><a href="https://arxiv.org/abs/2506.22817" target="_blank" rel="noopener noreferrer">Unleashing the Multi-View Fusion Potential: Noise Correction in VLM for Open-Vocabulary 3D Scene Understanding</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full"><strong>Xingyilang Yin</strong><sup>*</sup>, Jiale Wang<sup>*</sup>, Xi Yang<sup>†</sup>, Mutian Xu, Xu Gu, Nannan Wang</span><span class="author-names-short"><strong>Xingyilang Yin</strong><sup>*</sup>, J. Wang<sup>*</sup>, X. Yang<sup>†</sup>, M. Xu, X. Gu, N. Wang</span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">TMM 2026</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2506.22817" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+
+
+    </div>
+    <p class="home-pub-desc">Reducing vision-language feature noise for open-vocabulary 3D understanding.</p>
+  </div>
+</article>
+<article id="sampro3d" class="home-pub-card" data-selected="true" data-published="2023-11-29" data-sort-key="202520231129" aria-labelledby="title-sampro3d">
+
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2311.17707" target="_blank" rel="noopener noreferrer" aria-label="SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation">
+    <img src="/images/publications/sampro3d.jpg" alt="SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation — research overview" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-sampro3d" class="home-pub-title"><a href="https://arxiv.org/abs/2311.17707" target="_blank" rel="noopener noreferrer">SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">Mutian Xu, <strong>Xingyilang Yin</strong>, Lingteng Qiu, Yang Liu, Xin Tong, Xiaoguang Han<sup>†</sup></span><span class="author-names-short">M. Xu, <strong>Xingyilang Yin</strong>, L. Qiu, Y. Liu, X. Tong, X. Han<sup>†</sup></span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">3DV 2025</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2311.17707" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+      <a class="home-pub-link" href="https://mutianxu.github.io/sampro3d/" target="_blank" rel="noopener noreferrer">🌐 Project Page</a>
+      <a class="home-pub-link home-pub-link--code" href="https://github.com/GAP-LAB-CUHK-SZ/SAMPro3D" target="_blank" rel="noopener noreferrer"><!-- GitHub mark from https://github.com/primer/octicons
+MIT License
+
+Copyright (c) 2026 GitHub Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="github-icon" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656" /></svg>
+ GitHub</a>
+    </div>
+    <p class="home-pub-desc">Locating prompts in 3D for view-consistent, zero-shot instance segmentation.</p>
+  </div>
+</article>
+<article id="sa3dip" class="home-pub-card" data-selected="true" data-published="2024-11-06" data-sort-key="202420241106" aria-labelledby="title-sa3dip">
+
+  <a class="home-pub-figure" href="https://arxiv.org/abs/2411.03819" target="_blank" rel="noopener noreferrer" aria-label="SA3DIP: Segment Any 3D Instance with Potential 3D Priors">
+    <img src="/images/publications/sa3dip.png" alt="SA3DIP: Segment Any 3D Instance with Potential 3D Priors — research overview" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-sa3dip" class="home-pub-title"><a href="https://arxiv.org/abs/2411.03819" target="_blank" rel="noopener noreferrer">SA3DIP: Segment Any 3D Instance with Potential 3D Priors</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">Xi Yang, Xu Gu, <strong>Xingyilang Yin</strong><sup>†</sup>, Xinbo Gao</span><span class="author-names-short">X. Yang, X. Gu, <strong>Xingyilang Yin</strong><sup>†</sup>, X. Gao</span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">NeurIPS 2024</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://arxiv.org/abs/2411.03819" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+
+
+    </div>
+    <p class="home-pub-desc">Exploiting 3D priors for open-world 3D instance segmentation</p>
+  </div>
+</article>
+<article id="point-deformable" class="home-pub-card" data-selected="true" data-published="2024-03-24" data-sort-key="202420240324" aria-labelledby="title-point-deformable">
+
+  <a class="home-pub-figure" href="https://doi.org/10.1609/aaai.v38i7.28497" target="_blank" rel="noopener noreferrer" aria-label="Point Deformable Network with Enhanced Normal Embedding for Point Cloud Analysis">
+    <img src="/images/publications/pdnet.png" alt="PDNet architecture: hierarchical point-cloud processing with local and deformable aggregation modules" loading="lazy" />
+  </a>
+
+  <div class="home-pub-copy">
+    <h3 id="title-point-deformable" class="home-pub-title"><a href="https://doi.org/10.1609/aaai.v38i7.28497" target="_blank" rel="noopener noreferrer">Point Deformable Network with Enhanced Normal Embedding for Point Cloud Analysis</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full"><strong>Xingyilang Yin</strong>, Xi Yang<sup>†</sup>, Liangchen Liu, Nannan Wang, Xinbo Gao</span><span class="author-names-short"><strong>Xingyilang Yin</strong>, X. Yang<sup>†</sup>, L. Liu, N. Wang, X. Gao</span></p>
+    <p class="home-pub-venue home-pub-venue--accepted">AAAI 2024</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="https://doi.org/10.1609/aaai.v38i7.28497" target="_blank" rel="noopener noreferrer"><!-- arXiv mark: Simple Icons (CC0), https://github.com/simple-icons/simple-icons/blob/develop/icons/arxiv.svg -->
+<svg class="brand-icon brand-icon--arxiv" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z" /></svg>
+ Paper</a>
+
+
+    </div>
+    <p class="home-pub-desc">Deformable point processing for point cloud analysis</p>
+  </div>
+</article>
 
 </div>
-</div>
-<br>
-
-
-<div style="text-align: justify;clear: both;" >
-      Hi! I am currently a first-year PhD student of GVC Lab, University of Macau & Great Bay University, advised by Prof. <a href="https://vinthony.github.io/academic/">Xiaodong Cun</a> and Prof. Chi-Man Pun.
-      Previously, I received M.S and B.Sc degree from Xidian University.
-      My main research interests include Multimodal Understanding & Generation, Generative Models as World Simulators, and Multi-Agent Collaboration, with the intersection of Computer Vision and Computer Graphics.
-      Feel free to contact me by email if you are interested in discussing or collaborating with me.
-
-</div>
-<div style="text-align: justify;clear: both;">
-
-</div>
-<!-- <hr>
-<img style="width: 37%;text-align:center;display:inline-block;float:right" src="images/gvc_logo.png">
-<div id="News" style="color: #e37133; font-weight:600">Geneartive & intelligent Visual Computing (GVC) Lab @ <a href="https://www.gbu.edu.cn/">Great Bay University</a> </div>
-<span> I am building a new research lab at Great Bay University. Our lab studies Visual Computing,
-  with the goal of building intelligent machines that for creators and ordinary users,
-  Currently, we aim to solve the following problems:
-  <ul>
-    <li><span style="font-weight:700">Human-Centred Visual Computing</span>: How to digitize the human in the virtual environment and animation?</li>
-    <li><span style="font-weight:700">Multimedia Video Understanding and Generation</span>: How to understand/generate the video to/from the text? </li>
-    <li><span style="font-weight:700">Visual Content Generation & Editing</span>: How AIGC model can be controlled and used by real creators?</li>
-    <li><span style="font-weight:700">Computational Photography </span>: How AIGC method help the problems in (scientific) computational photography?</li>
-  </ul>
- Several positions are available, please drop me an email if you are interested in one of them.  </span>
-<ul>
-  <li style="font-weight:700; color:#0b1c40"><span>[🔥 25 Fall PHD/Master]:</span> GBU will have several positions for PhD (joint program with <a href="https://www.hitsz.edu.cn/index.html">The Harbin Institute of Technology, Shenzhen</a>)
-    and Master (joint program with <a href='https://www.szu.edu.cn/'>Shenzhen University</a>) Student. </li>
-  <li style="font-weight:700; color:#0b1c40"><span>[🔥 25 Fall PHD/PostDoc/Master]:</span> I will co-supervise PHD/MS/PostDoc with <a href="https://www.cis.um.edu.mo/~cmpun/">Prof. Chi-Man Pun</a> at <a href="https://www.um.edu.mo/">University of Macau.</a> </span></li>
-  <li><span style="font-weight:700">[Anytime PostDoc Position]:</span> GBU will have Joint Post-Doc program with <a href="https://www.sigs.tsinghua.edu.cn/en/">Tsinghua University (Shenzhen)</a> and <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a>. </span></li>
-  <li><span style="font-weight:700">[Anytime RA/Intern Position]:</span> Research Assistant, Research Scientist and Research Intern are also available. </span></li>
-</ul>
-<hr> -->
-
-<!-- <div id="News" class='xtitle'  >News</div>
-<ul class="news" style="line-height: 2em; overflow-y:auto; height: 200px">
-<li>3 papers are accepted by  <b>ECCV 2024</b> and 1 paper is acceped by <b>Pattern Recognition</b>. <div style="float: right;">2024.07 </div> </li>
-<li>6 papers are accepted by  <b>CVPR 2024</b>. (🌟 <a href="https://github.com/TencentARC/SmartEdit">SmartEdit</a> has been selected as highlight paper.) <div style="float: right;">2024.02 </div> </li>
-<li>3 papers are accepted by  <b>AAAI 2024</b>, <b>ICLR 2024 (Spotlight)</b> and <b>Eurographics 2024</b>, respectively. <div style="float: right;">2023.12 </div> </li>
-<li>1 paper is accepted by <b>NeurIPS 2023</b>. <div style="float: right;">2023.09 </div> </li>
-<li>1 paper is conditionally accepted by <b>SIGGRAPH Asia 2023</b> (Conference Track). <div style="float: right;">2023.08 </div> </li>
-<li>4 papers (4/5) are accepted by <b>ICCV-23</b>. (🌟 <a href="https://fate-zero-edit.github.io/">FateZero</a> has been selected as Oral paper.) <div style="float: right;">2023.07 </div> </li>
-<li>6 papers (6/7) are accepted by <b>CVPR-23</b>. <div style="float: right;">2023.02 </div> </li>
-</ul> -->
-
-	
-	
-</tbody></table>
-
-<section id="publications">
-  <h2 class="xtitle">Selected Projects</h2>
-
-
-  <!-- 单篇论文 -->
-  <div class="publication" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
-    <!-- 左边图片 -->
-    <div style="flex: 0 0 330px;">
-      <img src="./images/mllm4d_teaser.png" width="100%" 
-           style="box-shadow: 4px 4px 8px #888; border-radius: 8px;">
-    </div>
-    <!-- 右边文字 -->
-    <div style="flex: 1;">
-      <p><b>MLLM-4D: Towards Visual-based Spatial-Temporal Intelligence.</b> International Conference on Machine Learning (ICML), 2026</p>
-      <p>
-        <b>Xingyilang Yin*</b>, Chengzhengxu Li*, Jiahao Chang, Chi-Man Pun#, Xiaodong Cun#
-      </p>
-      <p>
-        [<a href="https://arxiv.org/abs/2603.00515">paper</a>] 
-        [<a href="https://github.com/GVCLab/MLLM-4D">code</a>]
-      </p>
-    </div>
-  </div>
-
-
-  <!-- 单篇论文 -->
-  <div class="publication" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
-    <!-- 左边图片 -->
-    <div style="flex: 0 0 330px;">
-      <img src="./images/gsfixer_teaser.png" width="100%" 
-           style="box-shadow: 4px 4px 8px #888; border-radius: 8px;">
-    </div>
-    <!-- 右边文字 -->
-    <div style="flex: 1;">
-      <p><b>GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors.</b> International Conference on Machine Learning (ICML), 2026</p>
-      <p>
-        <b>Xingyilang Yin*</b>, Qi Zhang*, Jiahao Chang, Ying Feng, Qingnan Fan, 
-        Xi Yang, Chi-Man Pun#, Huaqi Zhang, Xiaodong Cun#
-      </p>
-      <p>
-        [<a href="https://www.arxiv.org/abs/2508.09667">paper</a>] 
-        [<a href="https://github.com/GVCLab/GSFixer">code</a>]
-      </p>
-    </div>
-  </div>
-
-
-  <!-- 单篇论文 -->
-  <div class="publication" style="display: flex; gap: 10px;">
-    <!-- 右边文字 -->
-    <div style="flex: 1;">
-      <p>SA3DIP: Segment Any 3D Instance with Potential 3D Priors. Xi Yang, Xu Gu, <b>Xingyilang Yin#</b>, Xinbo Gao. Neural Information Processing Systems (NeurIPS), 2024</p>
-      <p>
-      </p>
-    </div>
-  </div>
-
-
-  <!-- 单篇论文 -->
-  <div class="publication" style="display: flex; gap: 10px;">
-    <!-- 右边文字 -->
-    <div style="flex: 1;">
-      <p>SAMPro3D: Locating SAM Prompts in 3D for Zero-shot Instance Segmentation. Mutian Xu, <b>Xingyilang Yin</b>, Lingteng Qiu, Yang Liu, Xin Tong, Xiaoguang Han#. International Conference on 3D Vision (3DV), 2025</p>
-      <p>
-      </p>
-    </div>
-  </div>
-
-
-  <!-- 单篇论文 -->
-  <div class="publication" style="display: flex; gap: 20px;">
-    <!-- 右边文字 -->
-    <div style="flex: 1;">
-      <p>Point Deformable Network with Enhanced Normal Embedding for Point Cloud Analysis. <b>Xingyilang Yin</b>, Xi Yang#, Liangchen Liu, Nannan Wang, Xinbo Gao. AAAI Conference on Artificial Intelligence (AAAI), 2024</p>
-      <p>
-      </p>
-    </div>
-  </div>
 
 </section>
 
+<hr class="experience-divider" />
 
+<section id="education" class="home-section">
+  <h2>Education</h2>
+  <div class="exp-list">
 
-<div id="Activities" class='xtitle' > Education and Work Experience </div>
-<ul class="news" style="line-height: 2em">
-
-<li>PhD, UM & GBU, Computer Science. Supervisor: Prof. Xiaodong Cun & Prof. Chi-Man Pun. <div style="float: right;">2025.8 - Now </div>  </li>
-<li>Research Intern, Tencent, MLLM & Agent. Supervisor: Dr. Guangzhi Wang & Prof. Xiaodong Cun. <div style="float: right;">2026.4 - Now </div>  </li>
-<li>Research Intern, VIVO, 3D Recon & Video Gen. Supervisor: Dr. Qi Zhang & Prof. Xiaodong Cun. <div style="float: right;">2024.12 - 2025.7 </div>  </li>
-<li>Master, Xidian University, 3D Understanding & Reconstruction. Supervisor: Prof. Xi Yang. <div style="float: right;">2022.9 - 2025.6 </div>  </li>
-<li>Research Intern, CUHKSZ, 3D Open World Understanding. Supervisor: Prof. Xiaoguang Han. <div style="float: right;">2024.3 - 2024.9 </div>  </li>
-<li>Bachelor, Xidian University, Communication Engineering. Supervisor: Prof. Touch fish.<div style="float: right;">2018.9 - 2022.6 </div></li>
-
-</ul>
-  <!-- <img height='60px' src="images/xidian_logo.png" /> &nbsp;&nbsp;&nbsp;&nbsp; 
-  <img src="images/CUHKSZ_logo.jpg" height="60px" /> &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/um_logo.png" height="60px" /> &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/vivo-logo.png" height="62px"/>&nbsp;&nbsp;&nbsp;&nbsp; 
-  <img src="images/gbugvc.png" height="60px"/>&nbsp;&nbsp;&nbsp;&nbsp; -->
-</ul>
-
-
-<div id="Academic Services" class='xtitle' > Academic Services, Teaching, and Awards </div>
-<ul class="news" style="line-height: 2em">
-<li> Conference Reviewer: CVPR, ECCV, NeurIPS, AAAI etc</li>
-<li> Teaching Assistant: CISC1004, CISC7109 etc</li>
-<li> Old Player of Hearthstone and Honor of Kings etc</li>
-<li> Outstanding Degree of XDU; National Scholarship etc</li>
-<li> Meritorious Prize, MCM/ICM; Second Prize, CMC etc</li>
-
-    </div>
-
-<!--     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          
-
-
-
-<a href="https://github.com/flow0314"><i class="svg-icon github"></i></a>
-
-
-
-
-
-
-
-
-        </footer>
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/um_logo.png" alt="UM &amp; GBU" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">UM &amp; GBU</h3>
+        <p class="exp-role">Ph.D</p>
+        <p class="exp-focus">Multimodal Agents &amp; Understand</p>
+        <p class="exp-focus">Advisors: Xiaodong Cun &amp; Chi-Man Pun</p>
+        <p class="exp-date">Aug 2025 – Present</p>
       </div>
     </div>
- -->
-    
+  </div>
 
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/xidian_logo.png" alt="Xidian University" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">Xidian University</h3>
+        <p class="exp-role">M.S.</p>
+        <p class="exp-focus">3D Understand &amp; Gen</p>
+        <p class="exp-focus">Advisor: Xi Yang</p>
+        <p class="exp-date">Sep 2022 – Jun 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/xidian_logo.png" alt="Xidian University" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">Xidian University</h3>
+        <p class="exp-role">B.Sc. in Communication Engineering</p>
+
+        <p class="exp-focus">Advisor: Touch Fish</p>
+        <p class="exp-date">Sep 2018 – Jun 2022</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/wfls-logo.svg" alt="Wuhan Foreign Languages School" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org"><a href="https://www.wfls.com.cn/" target="_blank" rel="noopener noreferrer">Wuhan Foreign Languages School</a></h3>
+        <p class="exp-role">High School</p>
+
+
+        <p class="exp-date">Sep 2015 – Jun 2018</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<hr class="experience-divider" />
+
+<section id="research" class="home-section">
+  <h2>Research Experience</h2>
+  <div class="exp-list">
+
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/tencent-logo.png" alt="ARC Lab, Tencent IEG" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">ARC Lab, Tencent IEG</h3>
+        <p class="exp-role">Research Intern</p>
+        <p class="exp-focus">Agents &amp; RSI</p>
+
+        <p class="exp-date">Apr 2026 – Present</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/vivo-logo.png" alt="BlueImage Lab, vivo" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">BlueImage Lab, vivo</h3>
+        <p class="exp-role">Research Intern</p>
+        <p class="exp-focus">3D &amp; Video Gen</p>
+
+        <p class="exp-date">Dec 2024 – Jul 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-info">
+      <img class="exp-logo" src="/images/cuhksz-crest.svg" alt="GAP Lab, CUHKSZ" loading="lazy" width="48" height="48" />
+      <div>
+        <h3 class="exp-org">GAP Lab, CUHKSZ</h3>
+        <p class="exp-role">Research Intern</p>
+        <p class="exp-focus">3D Understanding</p>
+
+        <p class="exp-date">Mar 2024 – Sep 2024</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+<hr />
+
+<section id="service" class="home-section">
+  <h2>Academic Service</h2>
+  <ul class="service-list"><li>Conference Reviewer: NeurIPS, ICLR, CVPR, AAAI.</li></ul>
+</section>
+
+<hr />
+
+<section id="teaching-awards" class="home-section">
+  <h2>Teaching &amp; Awards</h2>
+  <ul class="service-list">
+    <li>Teaching Assistant: CISC1004, CISC7109.</li>
+    <li>Outstanding Degree, Xidian University; National Scholarship.</li><li>Meritorious Prize, MCM/ICM; Second Prize, CMC.</li>
+    <li>Old Player of Hearthstone and Honor of Kings</li>
+  </ul>
+</section>
+
+<script>
+(function () {
+  var videos = document.querySelectorAll(".home-pub-video");
+  if (!videos.length) return;
+
+  var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var visibleVideos = new Set();
+
+  function updateVideo(video) {
+    if (reducedMotion.matches || document.hidden || !visibleVideos.has(video)) {
+      video.pause();
+      if (reducedMotion.matches) video.classList.remove("is-playing");
+      return;
+    }
+    if (!video.getAttribute("src")) video.src = video.getAttribute("data-src");
+    video.muted = true;
+    video.play().catch(function () {});
+  }
+
+  videos.forEach(function (video) {
+    video.addEventListener("playing", function () {
+      video.classList.add("is-playing");
+    });
+    video.addEventListener("error", function () {
+      video.classList.remove("is-playing");
+    });
+  });
+
+  if ("IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) visibleVideos.add(entry.target);
+        else visibleVideos.delete(entry.target);
+        updateVideo(entry.target);
+      });
+    });
+    videos.forEach(function (video) { observer.observe(video); });
+  } else {
+    videos.forEach(function (video) {
+      visibleVideos.add(video);
+      updateVideo(video);
+    });
+  }
+
+  document.addEventListener("visibilitychange", function () {
+    videos.forEach(updateVideo);
+  });
+  if (reducedMotion.addEventListener) {
+    reducedMotion.addEventListener("change", function () {
+      videos.forEach(updateVideo);
+    });
+  }
+})();
+</script>
+
+</main>
   </body>
 </html>
-
-

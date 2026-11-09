@@ -1,0 +1,2 @@
+{% comment %} Root-relative assets work on GitHub Pages and local previews. SEO uses site.url separately. {% endcomment %}
+{% assign base_path = site.baseurl | default: '' %}

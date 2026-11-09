@@ -1,0 +1,50 @@
+<script>
+(function () {
+  function initPubFilter(root) {
+    var list = root.querySelector(".home-pub-list");
+    // Preserve the curated source order for Selected; All uses publication dates.
+    var originalOrder = list ? Array.from(list.children) : [];
+    var buttons = root.querySelectorAll("[data-pub-filter]");
+    var items = root.querySelectorAll("[data-selected], [data-first-author]");
+    if (!buttons.length || !items.length) return;
+    function setMode(mode) {
+      root.classList.toggle("is-showing-all", mode === "all");
+      if (list) {
+        var ordered = originalOrder.slice();
+        if (mode === "all") {
+          ordered.sort(function (a, b) {
+            var aDate = Number(a.getAttribute("data-sort-key")) || 0;
+            var bDate = Number(b.getAttribute("data-sort-key")) || 0;
+            return bDate - aDate || originalOrder.indexOf(a) - originalOrder.indexOf(b);
+          });
+        }
+        ordered.forEach(function (item) { list.appendChild(item); });
+      }
+      items.forEach(function (el) {
+        var selected = el.getAttribute("data-selected") || el.getAttribute("data-first-author");
+        el.style.display = mode === "all" || selected === "true" ? "" : "none";
+      });
+      root.querySelectorAll(".pub-category-block").forEach(function (block) {
+        var anyVisible = false;
+        block.querySelectorAll("[data-selected], [data-first-author]").forEach(function (el) {
+          if (el.style.display !== "none") anyVisible = true;
+        });
+        block.style.display = anyVisible ? "" : "none";
+      });
+      buttons.forEach(function (btn) {
+        var active = btn.getAttribute("data-pub-filter") === mode;
+        btn.classList.toggle("pub-filter__btn--active", active);
+        var state = btn.getAttribute("role") === "tab" ? "aria-selected" : "aria-pressed";
+        btn.setAttribute(state, active ? "true" : "false");
+      });
+    }
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        setMode(btn.getAttribute("data-pub-filter"));
+      });
+    });
+    setMode(root.getAttribute("data-default-filter") === "all" ? "all" : "selected");
+  }
+  document.querySelectorAll(".js-pub-filter-root").forEach(initPubFilter);
+})();
+</script>

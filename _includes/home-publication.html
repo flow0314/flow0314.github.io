@@ -1,0 +1,18 @@
+<article id="{{ paper.id }}" class="home-pub-card{% unless paper.image %} home-pub-card--text-only{% endunless %}" data-selected="{{ paper.selected }}" data-published="{{ paper.date }}" data-sort-key="{{ paper.sort_key }}" aria-labelledby="title-{{ paper.id }}">
+  {% if paper.image %}
+  <a class="home-pub-figure" href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer" aria-label="{{ paper.title | escape }}">
+    <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="home-pub-copy">
+    <h3 id="title-{{ paper.id }}" class="home-pub-title"><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a></h3>
+    <p class="home-pub-authors"><span class="author-names-full">{% for author in paper.authors %}{% if author.name == 'Xingyilang Yin' %}<strong>{{ author.name }}</strong>{% else %}{{ author.name | escape }}{% endif %}{% if author.mark != '' %}<sup>{{ author.mark }}</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><span class="author-names-short">{% for author in paper.authors %}{% if author.name == 'Xingyilang Yin' %}<strong>{{ author.name }}</strong>{% else %}{{ author.short_name | escape }}{% endif %}{% if author.mark != '' %}<sup>{{ author.mark }}</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span></p>
+    <p class="home-pub-venue{% unless paper.venue == 'arXiv' %} home-pub-venue--accepted{% endunless %}">{{ paper.venue | escape }} {{ paper.year }}</p>
+    <div class="home-pub-links">
+      <a class="home-pub-link home-pub-link--pdf" href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">{% include arxiv-icon.html %} Paper</a>
+      {% if paper.project %}<a class="home-pub-link" href="{{ paper.project }}" target="_blank" rel="noopener noreferrer">🌐 Project Page</a>{% endif %}
+      {% if paper.code %}<a class="home-pub-link home-pub-link--code" href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">{% include github-icon.html %} GitHub</a>{% endif %}
+    </div>
+    <p class="home-pub-desc">{{ paper.description | escape }}</p>
+  </div>
+</article>

@@ -1,0 +1,1044 @@
+@charset "utf-8";
+/* ==========================================================================
+   HOMEPAGE - Professional Academic Style
+   ========================================================================== */
+
+/* ---------- Section styling ---------- */
+.home-section {
+  margin-bottom: 2.5em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  > h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--global-text-color);
+    border-bottom: 2.5px solid var(--global-link-color);
+
+    i {
+      color: var(--global-link-color);
+      font-size: 0.9em;
+    }
+  }
+
+  &-subtitle {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+}
+
+/* ---------- About section ---------- */
+.home-about-content {
+  p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--global-text-color);
+    margin-bottom: 0.8em;
+
+    strong {
+      color: var(--global-text-color);
+    }
+  }
+
+  .home-about-previous {
+    margin-top: -0.2em;
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+    line-height: 1.65;
+
+    strong {
+      color: var(--global-text-color-light);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: underline;
+      text-decoration-color: var(--global-border-color);
+      text-underline-offset: 2px;
+
+      &:hover {
+        color: var(--global-link-color);
+        text-decoration-color: var(--global-link-color);
+      }
+    }
+  }
+}
+
+.home-research-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin-top: 1.2em;
+  padding-top: 1em;
+  border-top: 1px dashed var(--global-border-color);
+}
+
+.interest-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.45em 0.9em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--global-link-color);
+  background: rgba(82, 173, 200, 0.1);
+  border: 1px solid rgba(82, 173, 200, 0.25);
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+
+  i {
+    font-size: 0.85em;
+    opacity: 0.8;
+  }
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.2);
+    border-color: rgba(82, 173, 200, 0.5);
+    transform: translateY(-1px);
+  }
+}
+
+/* ---------- Experience Cards ---------- */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  margin-top: 0.5em;
+}
+
+.exp-card {
+  display: flex;
+  align-items: center;
+  gap: 1.1em;
+  padding: 1em 1.3em;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-link-color);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transform: translateX(3px);
+  }
+}
+
+.exp-logo {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid var(--global-border-color);
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+  }
+}
+
+.exp-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.exp-org {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  line-height: 1.3;
+}
+
+.exp-date {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--global-link-color);
+  background: rgba(82, 173, 200, 0.1);
+  border: 1px solid rgba(82, 173, 200, 0.2);
+  padding: 0.2em 0.65em;
+  border-radius: 4px;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.exp-role {
+  margin: 0.3em 0 0;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+
+  a {
+    color: var(--global-link-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ---------- Publication cards ---------- */
+.home-publications {
+  /* extend slightly beyond content padding to gain width */
+  margin-left: -1em;
+  margin-right: -1em;
+
+  > h2,
+  > p {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.home-pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  margin-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.home-pub-section--filterable {
+  .pub-filter-bar {
+    margin-top: 0.25em;
+    margin-bottom: 0.25rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.home-pub-card {
+  position: relative;
+  padding: 1.2em 1.4em;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--global-link-color);
+    transform: translateY(-2px);
+  }
+
+  /* "NEW" highlight card */
+  &--new {
+    border-left: 3px solid #ff6b6b;
+
+    &::after {
+      content: 'NEW';
+      position: absolute;
+      top: -0.5em;
+      right: 1.5em;
+      padding: 0.15em 0.6em;
+      font-size: 0.65rem;
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+      border-radius: 4px;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+    }
+  }
+
+  &--first-author {
+    background: var(--global-code-background-color);
+  }
+}
+
+/* pub card figure – full-width between authors and description */
+.home-pub-figure {
+  display: block;
+  margin: 0.6em 0 0.7em;
+
+  img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    background: var(--global-code-background-color);
+    border-radius: 8px;
+    border: 1px solid var(--global-border-color);
+    display: block;
+    padding: 8px;
+  }
+}
+
+.home-pub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6em;
+}
+
+.home-pub-venue {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #52adc8 0%, #3d8fa8 100%);
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(82, 173, 200, 0.25);
+
+  &--preprint {
+    background: linear-gradient(135deg, #6c5ce7 0%, #a855f7 100%);
+    box-shadow: 0 2px 4px rgba(108, 92, 231, 0.25);
+  }
+}
+
+.home-pub-year {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  background: var(--global-code-background-color);
+  padding: 0.25em 0.7em;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+}
+
+.home-pub-title {
+  margin: 0.4em 0 0.5em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-link-color);
+    }
+  }
+}
+
+.home-pub-authors {
+  margin: 0 0 0.4em;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+
+  strong {
+    color: var(--global-text-color);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--global-link-color);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+  }
+}
+
+.home-pub-desc {
+  margin: 0 0 0.5em;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.home-pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.8em;
+  padding-top: 0.8em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.home-pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.4em 0.85em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--global-link-color);
+  text-decoration: none;
+  background: transparent;
+  border: 1.5px solid var(--global-border-color);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+
+  i {
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    color: #fff;
+    background: var(--global-link-color);
+    border-color: var(--global-link-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  &--pdf {
+    color: #fff;
+    background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
+    border-color: #d32f2f;
+    box-shadow: 0 2px 4px rgba(211, 47, 47, 0.25);
+
+    &:hover {
+      color: #fff;
+      background: linear-gradient(135deg, #b71c1c 0%, #a31515 100%);
+      border-color: #b71c1c;
+      box-shadow: 0 3px 8px rgba(211, 47, 47, 0.4);
+    }
+  }
+
+  &--project {
+    color: #fff;
+    background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
+    border-color: #2196f3;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.25);
+
+    &:hover {
+      background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+      border-color: #1976d2;
+      box-shadow: 0 3px 8px rgba(33, 150, 243, 0.4);
+    }
+  }
+
+  &--code {
+    color: #fff;
+    background: linear-gradient(135deg, #333 0%, #555 100%);
+    border-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background: linear-gradient(135deg, #111 0%, #333 100%);
+      border-color: #111;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &--dataset {
+    color: #fff;
+    background: linear-gradient(135deg, #ff9d00 0%, #ff6f00 100%);
+    border-color: #ff9d00;
+    box-shadow: 0 2px 4px rgba(255, 111, 0, 0.25);
+
+    &:hover {
+      color: #fff;
+      background: linear-gradient(135deg, #ff6f00 0%, #e65100 100%);
+      border-color: #ff6f00;
+      box-shadow: 0 3px 8px rgba(255, 111, 0, 0.4);
+    }
+  }
+
+  &--disabled {
+    color: var(--global-text-color-light);
+    background: var(--global-code-background-color);
+    border-color: var(--global-border-color);
+    border-style: dashed;
+    cursor: not-allowed;
+    opacity: 0.65;
+
+    &:hover {
+      color: var(--global-text-color-light);
+      background: var(--global-code-background-color);
+      border-color: var(--global-border-color);
+      transform: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* ---------- Awards ---------- */
+.awards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.award-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 0.9em 1em;
+  border-bottom: 1px solid var(--global-border-color);
+  transition: background 0.2s ease;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: var(--global-code-background-color);
+    border-radius: 6px;
+  }
+}
+
+.award-year {
+  flex-shrink: 0;
+  min-width: 5em;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--global-link-color);
+  padding-top: 0.15em;
+  letter-spacing: 0.3px;
+}
+
+.award-info {
+  flex: 1;
+
+  strong {
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+    display: block;
+    line-height: 1.4;
+  }
+
+  .award-note {
+    display: block;
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.15em;
+    font-style: italic;
+  }
+}
+
+/* ---------- Academic Service ---------- */
+.service-list {
+  margin-top: 0.5em;
+}
+
+.service-category {
+  margin-bottom: 1.5em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.service-category-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0 0 0.8em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+
+  i {
+    color: var(--global-link-color);
+    font-size: 0.9em;
+  }
+}
+
+.service-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8em;
+  padding: 1.1em 1.2em;
+  background: var(--global-footer-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 16px;
+}
+
+.service-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55em 1.1em;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 4px rgba(231, 76, 60, 0.25);
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);
+  }
+
+  &--golden {
+    color: #3d2e0a;
+    background: linear-gradient(135deg, #f4d03f 0%, #d4ac0d 55%, #b7950b 100%);
+    box-shadow: 0 2px 6px rgba(212, 172, 13, 0.45);
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(212, 172, 13, 0.5);
+    }
+  }
+}
+
+.contact-emails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+  margin-top: 1em;
+}
+
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.7em 1.2em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  background: var(--global-footer-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  i {
+    color: var(--global-link-color);
+  }
+
+  &:hover {
+    color: var(--global-link-color);
+    border-color: var(--global-link-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 768px) {
+  .home-section > h2 {
+    font-size: 1.3rem;
+  }
+
+  .home-research-interests {
+    gap: 0.4em;
+  }
+
+  .interest-tag {
+    font-size: 0.75rem;
+    padding: 0.35em 0.7em;
+  }
+
+  /* exp cards on mobile */
+  .exp-card {
+    gap: 0.8em;
+    padding: 0.85em 1em;
+    transform: none !important;
+  }
+
+  .exp-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3em;
+  }
+
+  .exp-org {
+    font-size: 0.92rem;
+  }
+
+  /* pub section on mobile - cancel the negative margin */
+  .home-publications {
+    margin-left: 0;
+    margin-right: 0;
+
+    > h2,
+    > p {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .home-pub-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* pub cards on mobile */
+  .home-pub-figure img {
+    max-height: 160px;
+  }
+
+  .home-pub-card {
+    padding: 1.1em;
+
+    &--new::after {
+      right: 1em;
+    }
+  }
+
+  .home-pub-title {
+    font-size: 1rem;
+  }
+
+  .home-pub-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4em;
+  }
+
+  .home-pub-authors,
+  .home-pub-desc {
+    font-size: 0.83rem;
+  }
+
+  .home-pub-links {
+    gap: 0.4em;
+  }
+
+  .award-item {
+    flex-direction: column;
+    gap: 0.3em;
+    padding: 0.7em 0.8em;
+  }
+
+  .award-year {
+    min-width: auto;
+  }
+
+  .service-badge {
+    font-size: 0.82rem;
+    padding: 0.5em 0.9em;
+  }
+}
+
+/* ==========================================================================
+   PUBLICATIONS PAGE (collection-based)
+   ========================================================================== */
+.publications-page {
+  .pub-page-intro {
+    margin-bottom: 2em;
+    color: var(--global-text-color-light);
+    font-size: 0.95em;
+    padding: 0.75em 1em;
+    background: var(--global-code-background-color);
+    border-left: 3px solid var(--global-link-color);
+    border-radius: 4px;
+  }
+}
+
+/* All / Selected filter (publications page main list) */
+.pub-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin-bottom: 1.5rem;
+}
+
+.pub-filter__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45em 1.15em;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--global-text-color-light);
+  background: var(--global-code-background-color);
+  border: 1.5px solid var(--global-border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    color: var(--global-text-color);
+    border-color: var(--global-link-color);
+  }
+
+  &--active {
+    color: #fff;
+    background: linear-gradient(135deg, #52adc8 0%, #3d9bb8 100%);
+    border-color: transparent;
+    box-shadow: 0 2px 8px rgba(82, 173, 200, 0.35);
+  }
+}
+
+/* First-author highlight */
+.archive__item--publication.archive__item--first-author {
+  background: var(--global-code-background-color);
+}
+
+.pub-section {
+  margin-bottom: 3em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pub-section__title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  border-bottom: 2px solid var(--global-link-color);
+  letter-spacing: -0.02em;
+}
+
+.pub-list {
+  .list__item {
+    margin-bottom: 2em;
+  }
+}
+
+.archive__item--publication {
+  position: relative;
+  padding: 1.5em;
+  margin-bottom: 0;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--global-link-color);
+    transform: translateY(-2px);
+  }
+
+  .pub-year {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    background: var(--global-code-background-color);
+    padding: 0.3em 0.7em;
+    border-radius: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .pub-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-bottom: 0.75em;
+    align-items: center;
+  }
+
+  .pub-tag,
+  .pub-venue-badge {
+    display: inline-block;
+    padding: 0.35em 0.75em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+    border-radius: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .pub-tag {
+    color: var(--global-link-color);
+    background: rgba(82, 173, 200, 0.15);
+    border: 1px solid rgba(82, 173, 200, 0.3);
+  }
+
+  .pub-venue-badge {
+    color: #fff;
+    background: linear-gradient(135deg, var(--global-link-color) 0%, var(--global-link-color-hover) 100%);
+    border: none;
+    box-shadow: 0 2px 4px rgba(82, 173, 200, 0.2);
+  }
+
+  .archive__item-title--pub {
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--global-text-color);
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--global-link-color);
+        text-decoration: none;
+      }
+    }
+
+    .pub-permalink {
+      margin-left: 0.5em;
+      font-size: 0.75em;
+      opacity: 0.5;
+      color: var(--global-text-color-light);
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 1;
+        color: var(--global-link-color);
+      }
+    }
+  }
+
+  .pub-authors {
+    margin: 0 0 0.6em;
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .pub-excerpt {
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    line-height: 1.7;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid var(--global-border-color);
+  }
+
+  .pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.5em 1em;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--global-link-color);
+    text-decoration: none;
+    background: transparent;
+    border: 1.5px solid var(--global-border-color);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+
+    i {
+      font-size: 0.9em;
+      opacity: 0.9;
+    }
+
+    &:hover {
+      color: #fff;
+      background: var(--global-link-color);
+      border-color: var(--global-link-color);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+      i {
+        opacity: 1;
+      }
+    }
+
+    &--pdf {
+      color: #fff;
+      background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
+      border-color: #d32f2f;
+      box-shadow: 0 2px 4px rgba(211, 47, 47, 0.3);
+
+      i {
+        opacity: 1;
+      }
+
+      &:hover {
+        color: #fff;
+        background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
+        border-color: #c62828;
+        box-shadow: 0 4px 8px rgba(211, 47, 47, 0.4);
+      }
+    }
+  }
+}
+
+/* Featured section */
+.pub-list--featured .archive__item--publication {
+  background: linear-gradient(135deg, rgba(82, 173, 200, 0.03) 0%, rgba(82, 173, 200, 0.08) 100%);
+  border: 2px solid var(--global-link-color);
+  box-shadow: 0 4px 12px rgba(82, 173, 200, 0.15);
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(82, 173, 200, 0.25);
+  }
+
+  .archive__item-title--pub {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  &::before {
+    content: "⭐";
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    font-size: 1.2em;
+    opacity: 0.6;
+  }
+}
+
+/* Responsive - publications page */
+@media (max-width: 768px) {
+  .archive__item--publication {
+    padding: 1.2em;
+
+    .pub-year {
+      position: static;
+      display: inline-block;
+      margin-bottom: 0.5em;
+    }
+
+    .archive__item-title--pub {
+      font-size: 1.05rem;
+    }
+
+    .pub-links {
+      gap: 0.5em;
+    }
+  }
+}

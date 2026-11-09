@@ -1,0 +1,8 @@
+<div class="home-pub-list">
+  {% if include.mode == 'all' %}
+    {% assign papers = site.data.publications | sort: 'sort_key' | reverse %}
+  {% else %}
+    {% assign papers = site.data.publications | where: 'selected', true | sort: 'selected_order' %}
+  {% endif %}
+  {% for paper in papers %}{% include home-publication.html %}{% endfor %}
+</div>
